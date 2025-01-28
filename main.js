@@ -1,4 +1,4 @@
-function byName(name) {
+function enterName(name) {
    if (name==="Lola"){
       console.log("HI "+name +" you win this apple:))")
    }
@@ -8,6 +8,6 @@ function byName(name) {
    else  {
       console.log("sorry "+name+". we dont know who you are??")}
    }
-   byName("Stassy")
-   byName("Lola")
-   byName("Tom")
+   enterName("Stassy")
+   enterName("Lola")
+   enterName("Tom")
